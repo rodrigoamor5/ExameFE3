@@ -52,7 +52,7 @@ const App = () => {
         <button type="submit">Enviar</button>
       </form>
       {error && <p className="error">{error}</p>}
-      //{submitted && <Card cardInfo={cardInfo} />}
+      {submitted && <Card cardInfo={cardInfo} />}
     </div>
   );
 };
